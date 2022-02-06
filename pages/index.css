@@ -1,0 +1,72 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+/* для body */
+@import url(../blocks/page/page.css);
+
+/* margin-ы для блоков */
+@import url(../blocks/indent/_device/indent_device_mobile.css);
+@import url(../blocks/indent/_device/indent_device_tablet.css);
+@import url(../blocks/indent/_device/indent_device_notebook-narrow.css);
+@import url(../blocks/indent/_device/indent_device_notebook-wide.css);
+
+/* прозрачность для ссылок при hover */
+@import url(../blocks/link/link.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_state/header__lang-link_state_active.css);
+
+/* lead: Путешествия по России */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/page/__lead/page__lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+/* intro: чего мы там не видели */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/page/__intro/page__intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_bold/intro__list_bold.css);
+
+/* photo-grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__grid/photo-grid__grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+/* places */
+@import url(../blocks/places/places.css);
+@import url(../blocks/page/__places/page__places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__heading/place__heading.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__description/place__description.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
+/* cover: до Байкала на собаках */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/page/__cover/page__cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-item/footer__menu-item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

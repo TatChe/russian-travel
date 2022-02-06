@@ -1,0 +1,16 @@
+.photo-grid {
+  display: flex;
+  padding-bottom: 62px;
+}
+
+@media screen and (min-width: 768px) {
+  .photo-grid {
+    padding-bottom: 86px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo-grid {
+    padding-bottom: 90px;
+  }
+}
