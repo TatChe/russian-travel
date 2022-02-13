@@ -1,6 +1,6 @@
 .photo-grid {
   display: flex;
-  padding-bottom: 62px;
+  padding-bottom: 56px;
 }
 
 @media screen and (min-width: 768px) {
